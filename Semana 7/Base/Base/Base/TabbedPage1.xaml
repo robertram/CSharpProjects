@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.TabbedPage1">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Personal">
+        <StackLayout>
+        <Label Text="Nombre"/>
+        <Entry Placeholder="Ingrese su nombre"/>
+        <Label Text="Cedula"/>
+        <Entry Placeholder="Ingrese su cedula"/>
+        <Button Text="Enviar"/>
+        </StackLayout>
+    </ContentPage>
+        <ContentPage Title="Comm" >
+        <StackLayout>
+            <Label Text="Nombre"/>
+            <Entry Placeholder="Ingrese su nombre"/>
+            <Label Text="Cedula"/>
+            <Entry Placeholder="Ingrese su cedula"/>
+            <Button Text="Enviar"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Mail" >
+    </ContentPage>
+    <ContentPage Title="Save" >
+    </ContentPage>
+</TabbedPage>

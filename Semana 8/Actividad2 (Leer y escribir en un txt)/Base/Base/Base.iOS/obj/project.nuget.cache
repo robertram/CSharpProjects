@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pLMQYjkx4DsDC/+7++2yihbfIHwK6Ax8nJWR2ZHsq5QY9RQ6VUemZreRH/qVsStFF7kAOR8MXTpZm7h9v7poxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Robert\\Documents\\C#\\Semana 8\\Actividad2 (Leer y escribir en un txt)\\Base\\Base\\Base.iOS\\Base.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Robert\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Robert\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\Robert\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Base.MainPage">
+
+    <StackLayout>
+        <Label Text="Status" HorizontalOptions="Center" FontSize="Medium" x:Name="lblStatus" />
+        <Button Text="Validar" x:Name="btnNet" />
+
+        <Label Text="Ubicar" HorizontalOptions="Center" FontSize="Medium" x:Name="lblLocaliza" />
+        <Button Text="Validar GPS" x:Name="btnGPS" />
+
+        <Entry x:Name="EntryName" Placeholder="Nombre" />
+        <Entry x:Name="EntryLatitude" Text="9.941212" Keyboard="Numeric"/>
+        <Entry x:Name="EntryLongitud" Text="-84.0780812" Keyboard="Numeric" />
+        <Button Text="Abrir Coordenadas" x:Name="btnMap"/>
+    </StackLayout>
+
+</ContentPage>

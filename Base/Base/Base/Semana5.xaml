@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.Semana5">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button Text="Click"  x:Name="btn1"></Button>
+<!--
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="Ring">
+                        <SwitchCell Text="Nuevo Correo de Voz" x:Name="SWCorreoVoz"/>
+                        <SwitchCell Text="Nuevo Mensaje" On="true" x:Name="SWNuevoMensaje"/>
+                    </TableSection>
+                    <TableSection Title="Text">
+                        <EntryCell Placeholder="Nombre" x:Name="txtNombre"/>
+                        <EntryCell Placeholder="Nuevo Mensaje" x:Name="txtNuevoMensaje" />
+                    </TableSection>
+                    <TableSection Title="Idiomas">
+                        <SwitchCell Text="Texto Español" On="true"/>
+                        <SwitchCell Text="Mensajes sistema español" On="true" />
+                        <SwitchCell Text="Responder en español" On="true" />
+                    </TableSection>
+                    <TableSection Title="Notas">
+                        <EntryCell Placeholder="Dirección" />
+                        <EntryCell Placeholder="Mail"  />
+                    </TableSection>
+                    <TableSection Title="Imagen">
+                        <ImageCell ImageSource="sandroid.png" ></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+            <Grid Margin=" 20,35,20,20 " x:Name="Grid" IsVisible="False">
+                <Label Grid.Row="0" Grid.Column="0" Text="Col 0 Row 0" x:Name="lbl"</Label>/>
+                <Label Grid.Row="0" Grid.Column="1" Text="Col 1 Row 0"/>
+                
+                <Label Grid.Row="1" Grid.Column="0" Text="Col 0 Row 1"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="Col 1 Row 1"/>
+            </Grid >-->
+
+            <ListView ItemsSource="{Binding Provincias} " HasUnevenRows="True" ItemSelected="ListView_ItemSelected" ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.RowSpan="2" Source="{Binding Url}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60"/>
+                                <Label Grid.Column="1" Text="{Binding Name} " FontAttributes="Bold" />
+                                <Label Grid.Row="1" Grid.Column="1" Text ="{Binding Ubicacion} " VerticalOptions="End" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

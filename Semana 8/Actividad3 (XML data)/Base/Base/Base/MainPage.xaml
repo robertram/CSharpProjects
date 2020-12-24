@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Base.MainPage">
+
+    <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Vietcombank - Exchange Rates" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Date: " x:Name="LabelDate" HorizontalOptions="Center"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Text="Currency Code" Grid.Row="0" Grid.Column="0" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Currency Name" Grid.Row="0" Grid.Column="1" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Buy" Grid.Row="0" Grid.Column="2" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Sell" Grid.Row="0" Grid.Column="3" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+
+                <!--AUD-->
+                <Label Text="AUD" Grid.Row="1" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="AUST.DOLLAR" Grid.Row="1" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelAUDBuy" Grid.Row="1" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelAUDSell" Grid.Row="1" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--CAD-->
+                <Label Text="CAD" Grid.Row="2" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="CANADIAN DOLLAR" Grid.Row="2" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelCADBuy" Grid.Row="2" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelCADSell" Grid.Row="2" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--CHF-->
+                <Label Text="CHF" Grid.Row="3" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="SWISS FRANCE" Grid.Row="3" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelCHFBuy" Grid.Row="3" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelCHFSell" Grid.Row="3" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--DKK-->
+                <Label Text="DKK" Grid.Row="4" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="DANISH KRONE" Grid.Row="4" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelDKKBuy" Grid.Row="4" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelDKKSell" Grid.Row="4" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--EUR-->
+                <Label Text="EUR" Grid.Row="5" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="EURO" Grid.Row="5" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelEURBuy" Grid.Row="5" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelEURSell" Grid.Row="5" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+
+                <!--GBP-->
+                <Label Text="GBP" Grid.Row="6" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="BRITISH POUND" Grid.Row="6" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelGBPBuy" Grid.Row="6" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelGBPSell" Grid.Row="6" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--HKD-->
+                <Label Text="HKD" Grid.Row="7" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="HONGKONG" Grid.Row="7" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelHKDBuy" Grid.Row="7" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelHKDSell" Grid.Row="7" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--INR-->
+                <Label Text="INR" Grid.Row="8" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="INDIAN RUPEE" Grid.Row="8" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelINRBuy" Grid.Row="8" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelINRSell" Grid.Row="8" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--JPY-->
+                <Label Text="JPY" Grid.Row="9" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="JAPANESE YEN" Grid.Row="9" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelJPYBuy" Grid.Row="9" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelJPYSell" Grid.Row="9" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--KRW-->
+                <Label Text="KRW" Grid.Row="10" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="SOUTH KOREAN" Grid.Row="10" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelKRWBuy" Grid.Row="10" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelKRWSell" Grid.Row="10" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--KWD-->
+                <Label Text="KWD" Grid.Row="11" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="KUWAITI DINAR" Grid.Row="11" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelKWDBuy" Grid.Row="11" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelKWDSell" Grid.Row="11" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--MYR-->
+                <Label Text="MYR" Grid.Row="12" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="MALAYSIAN" Grid.Row="12" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelMYRBuy" Grid.Row="12" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelMYRSell" Grid.Row="12" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--NOK-->
+                <Label Text="NOK" Grid.Row="13" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="NORWEGIAN" Grid.Row="13" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelNOKBuy" Grid.Row="13" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelNOKSell" Grid.Row="13" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--RUB-->
+                <Label Text="RUB" Grid.Row="14" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="RUSSIAN RUBLE" Grid.Row="14" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelRUBBuy" Grid.Row="14" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelRUBSell" Grid.Row="14" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+                <!--USD-->
+                <Label Text="USD" Grid.Row="15" Grid.Column="0" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="US DOLLAR" Grid.Row="15" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelUSDBuy" Grid.Row="15" Grid.Column="2" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="00000" x:Name="LabelUSDSell" Grid.Row="15" Grid.Column="3" HorizontalOptions="CenterAndExpand" TextColor="Green"/>
+                <Label Text=""/>
+
+            </Grid>
+            <Label Text="FOR REFERENCE ONLY WITH UNIT: Vietnam Dong VND" HorizontalOptions="Center"/>
+
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

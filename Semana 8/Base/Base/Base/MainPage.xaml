@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Base.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="New" x:Name="tb1"/>
+        <ToolbarItem IconImageSource="homeIcon.png" Priority="0" Order="Primary" x:Name="tb2"/>
+        <ToolbarItem IconImageSource="aboutIcon.png" Priority="1" Order="Primary" x:Name="tb3" />
+        <ToolbarItem Text="About" Priority="2" Order="Secondary" x:Name="tb4"/>
+        <ToolbarItem Text="Logout" Priority="3" Order="Secondary" x:Name="tb5"/>
+    </ContentPage.ToolbarItems>
+    <Label Text="Hola" x:Name="lbl01"/>
+
+</ContentPage>

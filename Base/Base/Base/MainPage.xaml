@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Base.MainPage">
+
+    <StackLayout BackgroundColor="#788475">
+        <!-- Place new controls here -->
+        <Label Text="Texto inicial" 
+           x:Name="lbl"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry Placeholder="Escriba aqui" x:Name="txt1"/>
+
+        <Slider Minimum="0" Maximum="100" Scale="1" x:Name="ss"/>
+
+        <DatePicker 
+            MinimumDate="01/01/2020" 
+            Date="02/01/2020"
+                MaximumDate = "12/29/2020"
+            x:Name="dtp"/>
+
+        <Button Text="Aceptar" CornerRadius="20" x:Name="btn"></Button>
+        <Button Text="Siguiente Pantalla" CornerRadius="20" x:Name="btnNavigation"></Button>
+    </StackLayout>
+
+</ContentPage>

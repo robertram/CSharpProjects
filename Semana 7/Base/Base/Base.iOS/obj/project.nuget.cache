@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ev3L7YCMT3Nm+bEne9GAo0s/M3BJPCBv4OEX2UosuVPz3WM9p/ClVyrAVfjN2hU9tDebYeNMW1v30qpkhMGaBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Robert\\Documents\\C#\\Semana 7\\Base\\Base\\Base.iOS\\Base.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Robert\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Robert\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.4.0\\xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
+    "C:\\Users\\Robert\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\Robert\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

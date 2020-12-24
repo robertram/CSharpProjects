@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.MainMenu">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="dragon.png" Aspect="AspectFill"/>
+            <BoxView Color="#F77F00" Opacity="0.5"/>
+            <StackLayout>
+
+                <Image Grid.Row="0" Source="LogoBank1.jpg" WidthRequest="100"
+                       HeightRequest="100" Margin="0,50,0,30"/>
+                <Label Text="Menu de Opciones" FontSize="20" TextColor="#EAE2B7" 
+                       FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Button x:Name="btnProductos" Text="Ver Productos" BackgroundColor="#003049" TextColor="#D62828" BorderRadius="10" HorizontalOptions="Center" WidthRequest="200"/>
+                
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

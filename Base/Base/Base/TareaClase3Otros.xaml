@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.TareaClase3Otros">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <RadioButton Text="Android"
+                         CheckedChanged="OnPlatformRadioButtonCheckedChanged" />
+                <RadioButton Text="iOS"
+                         CheckedChanged="OnPlatformRadioButtonCheckedChanged" />
+                <RadioButton Text="UWP"
+                         CheckedChanged="OnPlatformRadioButtonCheckedChanged" />
+                <Label x:Name="platformLabel"
+                   Text="You have chosen:" />
+            </StackLayout>
+
+            <Switch IsToggled="false"
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand" 
+                   x:Name="swt" 
+                    Toggled="switcher_Toggled"/>
+
+            <Label x:Name="lblSwitch"
+                   Text="Switch: " 
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

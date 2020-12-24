@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.TemperatureCalculator">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Convertidor Farenheit - Centigrados"
+                   Padding="30"
+                HorizontalOptions="CenterAndExpand" x:Name="lblDescripcion"/>
+
+            <Label Text="Farenheit"
+                HorizontalOptions="CenterAndExpand" x:Name="lblfarenheit"/>
+            <Entry x:Name="farenheitEntry" Keyboard="Numeric" ></Entry>
+
+            <Button Text="Convertir a Centigrados" x:Name="convetirACentigrados"></Button>
+
+            <Label Text="Centigrados"
+                HorizontalOptions="CenterAndExpand" x:Name="lblcentigrados"/>
+            <Entry x:Name="centigradosEntry" Keyboard="Numeric" ></Entry>
+
+            <Button Text="Convertir a Farenheit" x:Name="convetirAFarenheit"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

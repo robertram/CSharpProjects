@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Base.MainPage">
+
+    <StackLayout>
+        <Label Text="Status" HorizontalOptions="Center"/>
+        <Slider Minimum="0" Maximum="5000" x:Name="SliderTime" />
+        <Button Text="Vibrar" x:Name="ButtonVibrate" />
+        <Button Text="Cancelar" x:Name="ButtonCancel" />
+
+        <Entry x:Name="EntryText" Placeholder="Ingrese el texto"/>
+        <Button Text="Hablar" x:Name="ButtonHablar" />
+        <Slider MinimumTrackColor="Black" MaximumTrackColor="DarkSlateGray" ThumbColor="DarkSlateGray"
+                Minimum="0" Maximum="1" Value="1" x:Name="SliderVolume" />
+
+        <Entry x:Name="EntryEmail" Text="" Keyboard="Email" />
+        <Entry x:Name="EntrySubject" Text="" />
+        <Button Text="Enviar" x:Name="btnMail"/>
+    </StackLayout>
+
+</ContentPage>

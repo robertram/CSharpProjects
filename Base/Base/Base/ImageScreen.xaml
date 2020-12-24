@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.ImageScreen">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="https://media3.s-nbcnews.com/j/newscms/2014_29/573886/ss-140719-apollo-11-01_4396b2820b1792587ced6204c09099fb.fit-2000w.jpg" 
+                   HeightRequest="300" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" ></Image>
+
+            <Image Source="sandroid.png" 
+                   HeightRequest="300" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" ></Image>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

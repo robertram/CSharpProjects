@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.TareaClase3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Qué instrumento sabe tocar?"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="lblPregunta"/>
+            
+			<Grid >
+                <Label Text="Batería"
+               VerticalOptions="Center" 
+                   Grid.Column="1"/>
+            <CheckBox Grid.Column="2" 
+                  CheckedChanged="CheckboxChanged"
+                  VerticalOptions="Center" 
+                       x:Name="chbx1"/>
+            </Grid>
+
+            <Grid >
+                <Label Text="Guitarra"
+               VerticalOptions="Center" 
+                   Grid.Column="1"/>
+                <CheckBox Grid.Column="2" 
+                  CheckedChanged="CheckboxChanged"
+                  VerticalOptions="Center" 
+                       x:Name="chbx2"/>
+            </Grid>
+            <Grid >
+                <Label Text="Ambos"
+               VerticalOptions="Center" 
+                   Grid.Column="1"/>
+                <CheckBox Grid.Column="2" 
+                  CheckedChanged="CheckboxChanged"
+                  VerticalOptions="Center" 
+                       x:Name="chbx3"/>
+            </Grid>
+
+            <Label Text="Batería:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="lblBatería"/>
+
+            <Label Text="Guitarra:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="lblGuitarra"/>
+
+            <Label Text="Ambos:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="lblAmbos"/>
+
+            <Button Text="Aceptar" CornerRadius="20" x:Name="bntAceptarChbx"></Button>
+            <Button Text="Pantalla Anterior" CornerRadius="20" x:Name="btnNavigationBack"></Button>
+            <Button Text="Home" CornerRadius="20" x:Name="btnNavigationHome"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

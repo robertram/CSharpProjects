@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base.Semana6">
+    <ContentPage.Content>
+        
+
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <Button Text="Login" />
+            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+                    <Label Text="A" />
+                    <Label Text="B" />
+                    <!-- snipped all the extra labels for code sample clarity -->
+                    <Label Text="C" />
+                    <Label Text="D" />
+                    <Label Text="E" />
+                    <Label Text="F" />
+                    <Label Text="G" />
+                    <Label Text="A" />
+                    <Label Text="B" />
+                    <!-- snipped all the extra labels for code sample clarity -->
+                    <Label Text="C" />
+                    <Label Text="D" />
+                    <Label Text="E" />
+                    <Label Text="F" />
+                    <Label Text="A" />
+                    <Label Text="B" />
+                    <!-- snipped all the extra labels for code sample clarity -->
+                    <Label Text="C" />
+                    <Label Text="D" />
+                    <Label Text="E" />
+                    <Entry Text=""/>
+                    <Label Text="F" />
+                    <Label Text="A" />
+                    <Label Text="B" />
+                    <!-- snipped all the extra labels for code sample clarity -->
+                    <Label Text="C" />
+                    <Label Text="D" />
+                    <Label Text="E" />
+                    <Label Text="F" />
+                    <Label Text="A" />
+                    <Label Text="B" />
+                    <!-- snipped all the extra labels for code sample clarity -->
+                    <Label Text="C" />
+                    <Label Text="D" />
+                    <Label Text="E" />
+                    <Label Text="F" />
+                    <Label Text="G" />
+                    <Label Text="G" />
+                    <Label Text="G" />
+                    <Label Text="G" />
+                    <Label Text="********** FINAL ********** " />
+                </StackLayout>
+            </ScrollView>
+            <Button Text="Login" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
